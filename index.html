@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Etch-a-sketch</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="header">
+        <h1 style="display: block">
+          Etch-a-sketch <img src="img/line.png" alt="line_image" />
+        </h1>
+      </div>
+
+      <div class="buttons">
+        <button type="button" id="rainbow" onclick="rainbow_btn()">
+          Rainbow</button
+        ><br />
+        <button type="button" id="black_btn" onclick="black_btn()">Black</button
+        ><br />
+        <button type="button" id="eraser_btn" onclick="eraser_btn()">
+          Eraser</button
+        ><br />
+        <button type="button" id="reset" onclick="reset_btn()">Reset</button
+        ><br />
+      </div>
+
+      <div id="container"></div>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>
